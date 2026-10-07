@@ -185,9 +185,6 @@ source .venv/bin/activate      # Linux/macOS
 python arrow_demo.py                 # 200,000 rows (default)
 python arrow_demo.py --rows 1000000
 ```
-
-If PySpark prints warnings about your pandas version (for example with pandas ≥ 3.0), the script suppresses them. Use an older pandas if you hit real incompatibilities.
-
 ---
 
 ## 6. Limitations
